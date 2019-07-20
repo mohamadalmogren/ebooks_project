@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, p {
+    margin-bottom: 5px;
+}
+
+body {
+    background-color: #f4f4f4;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    width: 40%;
+    margin: 10px auto;
+    padding: 10px;    
+    background-color: white;
+}
+
+.msgs {
+    background-color: coral;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid black;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+}
+
+label {
+    display: block;
+}
+
+.btn {
+    width: 30%;
+    background-color: tomato;
+    color: white;        
+    padding: 10px;
+}
+
+.errorlist li {
+    color: red;
+}
+
+.box {
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid black;
+}
+
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 10px;    
+    overflow: hidden;
+}
+
+.navbar h1 {
+    float: left;
+}
+
+.navbar ul {
+    float: right;
+    list-style: none;
+}
+
+.navbar ul li {
+    float: left;
+    padding: 10px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position:fixed;
+    bottom:0;
+    width: 100%;    
+}
